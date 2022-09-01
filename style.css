@@ -1,0 +1,162 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: pink;
+  font-size: 1.2rem;
+  color: white;
+}
+
+header {
+  display: flex;
+  background-color: #30a7c3;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+header img {
+  width: 80px;
+  border: 2px solid brown;
+  border-radius: 0.5rem;
+}
+header ul {
+  list-style-type: none;
+}
+header ul li {
+  display: inline-block;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  /**a:hover{} 2.YONTEMİ*/
+}
+header a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  background-color: hotpink;
+  padding: 1rem;
+  line-height: 2rem;
+  align-items: center;
+}
+.banner aside button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #30a7c3;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+}
+.banner aside button:hover {
+  background-color: pink;
+  cursor: pointer;
+}
+.banner img {
+  width: 20%;
+  min-height: 200px;
+  max-width: 400px;
+}
+
+.cards {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.8rem;
+}
+.cards .card1 {
+  background-color: green;
+  color: white;
+  height: 15rem;
+  border: 2px solid brown;
+  border-radius: 5px;
+  width: 25%;
+}
+.cards .card2 {
+  background-color: brown;
+  color: white;
+  height: 15rem;
+  border: 2px solid brown;
+  border-radius: 5px;
+  width: 25%;
+}
+.cards .card3 {
+  background-color: yellow;
+  color: white;
+  height: 15rem;
+  border: 2px solid brown;
+  border-radius: 5px;
+  width: 25%;
+}
+.cards .card4 {
+  background-color: blue;
+  color: white;
+  height: 15rem;
+  border: 2px solid brown;
+  border-radius: 5px;
+  width: 25%;
+}
+
+.article {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+.article .article1, .article .article2 {
+  background-color: gray;
+  width: 50%;
+  border: 1px solid black;
+  height: 10rem;
+  border-radius: 5px;
+}
+.article .article2 {
+  background-color: hotpink;
+  border-color: green;
+}
+
+footer p {
+  background-color: green;
+}
+footer .social-icons {
+  display: flex;
+  height: 10rem;
+}
+footer .social1 {
+  width: 20%;
+  background-color: rgba(43, 143, 229, 0.89);
+  font-size: 1rem;
+  color: #990000;
+}
+footer .social2 {
+  width: 20%;
+  background-color: rgba(65, 155, 232, 0.89);
+  font-size: 2rem;
+  color: #55004e;
+}
+footer .social3 {
+  width: 20%;
+  background-color: rgba(88, 167, 234, 0.89);
+  font-size: 3rem;
+  color: #0fa8a1;
+}
+footer .social4 {
+  width: 20%;
+  background-color: rgba(111, 179, 237, 0.89);
+  font-size: 4rem;
+  color: #121456;
+}
+footer .social5 {
+  width: 20%;
+  background-color: rgba(133, 191, 240, 0.89);
+  font-size: 5rem;
+  color: #64c217;
+}
+
+/*# sourceMappingURL=style.css.map */
